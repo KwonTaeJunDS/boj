@@ -1,2 +1,2 @@
-[![문제링크]](https://www.acmicpc.net/problem/1330)
+[문제링크](https://www.acmicpc.net/problem/1330)
 
