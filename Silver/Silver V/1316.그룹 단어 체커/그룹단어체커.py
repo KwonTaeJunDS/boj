@@ -1,4 +1,6 @@
 import sys
+
+
 num = int(sys.stdin.readline().strip()) 
 
 def check(word): # 그룹 단어 판별 함수수
@@ -21,7 +23,7 @@ lst = [] # word를 넣어줄 리스트 정의
 
 for i in range(num):
     word = input()
-    lst.append(word)
+
     flag.append(check(word))
 
 print(flag.count(True)) # True의 갯수를 print해서 그룹 단어 개수 출력
