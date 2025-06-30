@@ -1,4 +1,5 @@
-num = int(input()) 
+import sys
+num = int(sys.stdin.readline().strip()) 
 
 def check(word): # 그룹 단어 판별 함수수
     visited = set() # 빈 set 자료형을 만들어줌
